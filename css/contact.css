@@ -1,0 +1,88 @@
+input, textarea, select {
+	font-size: 15px;
+	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #888;
+	border: 0;
+	-webkit-transition: all 0.2s ease 0s;
+	-moz-transition: all 0.2s ease 0s;
+	-o-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
+	float: none;
+	display: block;
+	margin: 0px;
+	-webkit-appearance: none;
+	background: none
+}
+textarea {
+	resize: none;
+}
+#message {
+	margin: 0;
+	padding: 0px;
+	z-index: 200;
+	height: auto;
+	text-align: center !important
+}
+.error_message, #success_page {
+	display: block;
+	height: auto;
+	color: #d31800;
+	font-style: italic;
+	font-size: 12px;
+	padding: 10px 0px 0px 0px;
+	line-height: 1.5;
+	margin-bottom: -10px;
+	position: relative;
+}
+#success_page {
+	color: #2b2b2b !important;
+}
+.loader {
+	display: none;
+}
+.form-part {
+	padding: 0;
+	margin-top: 30px;
+}
+.form-part > textarea, .form-part > select, .form-part > input:not([type="submit"]):not([type="image"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]) {
+	display: block;
+	width: 100%;
+	padding: 12px 15px 14px;
+	margin-bottom: 10px;
+	border: 1px solid #d8d8d8;
+	text-align: left;
+	border-radius: 3px;
+	line-height: 20px;
+}
+.form-part > textarea {
+	height: 200px;
+	resize: none;
+}
+.form-part > .input-wrapper {
+	position: relative;
+}
+.form-part input:focus, .form-part textarea:focus {
+	background: #f9f9f9;
+}
+.send-btn {
+	border-radius: 30px;
+	border: 1px solid #000;
+	padding: 10px 25px 12px;
+	line-height: 1;
+	height: 36px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 11px !important;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+	color: #fff;
+	background: #000;
+}
+.send-btn:hover {
+	color: #fff;
+	background: rgba(0,0,0,0.75);
+}

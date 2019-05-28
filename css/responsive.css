@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 992px) {
+.container {
+	width: 910px;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+#content {
+	position: absolute;
+	padding-left: 0px;
+	z-index: 102
+}
+header {
+	position: absolute;
+	min-height: 100%;
+	height: auto;
+	padding-top: 53px;
+}
+#background-color {
+	background: #fff;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 101;
+	-webkit-overflow-scrolling: touch;
+	top: 0;
+	left: 0;
+	display: block
+}
+#bottom-header {
+	position: relative;
+	bottom: auto;
+	width: 100%;
+	text-align: center;
+}
+#menu-button {
+	display: block;
+}
+#fixed-barrier {
+	display: none;
+}
+.pushed-left #fixed-barrier {
+	left: 0px;
+	top: -200px;
+	display: block;
+	height: calc(100% + 200px);
+}
+h1#logo {
+	background: #fff;
+	width: 100%;
+	position: relative;
+	top: auto;
+	padding: 25px 0;
+}
+.pushed-left h1#logo {
+	border-left: 1px solid #d8d8d8;
+}
+.wrapper {
+	overflow-x: hidden !important;
+}
+.border-bottom-on-header #logo {
+	border-bottom: 1px solid #d8d8d8;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+.client {
+	width: 33.33333%;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+.containing-image-wrapper {
+	position: relative;
+	height: 370px;
+}
+.flex-direction-nav .flex-next {
+	right: -15px !important;
+}
+.flex-direction-nav .flex-prev {
+	left: -15px !important;
+}
+.extra-padding-left {
+	padding-left: 15px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+h2 {
+	font-size: 36px;
+	line-height: 1.2;
+	letter-spacing: -1px;
+}
+.info-box-content .parent {
+	padding: 30px;
+}
+.containing-image-wrapper {
+	position: relative;
+	height: 270px;
+}
+.centered-on-xs {
+	text-align: center;
+}
+.col-lg-12 .client {
+	width: 50%;
+}
+.teaser-content {
+	padding: 25px 15px;
+}
+.comment {
+	padding: 30px 0 25px
+}
+.commenter-avatar {
+	padding: 0;
+	margin: 0 auto;
+	width: 150px;
+	display: inline-block;
+	float: none
+}
+.comment-content {
+	padding-top: 20px;
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+.comment.reply.level-1 {
+	padding-left: 0
+}
+.comment-form-wrapper {
+	padding-top: 29px;
+}
+.comment-form-icon-wrapper {
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.comment-form-icon-wrapper:before {
+	display: inline-block;
+}
+.comment-form {
+	padding: 0;
+}
+input, textarea {
+	width: 100% !important;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	border: 0;
+}
+.height-500 {
+	height: 450px;
+}
+}
+
+
+/* Safari 6.1+ (9.0 is the latest version of Safari at this time) */
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+@media {
+ .button {
+padding:11px 25px 0px;
+}
+}
+}

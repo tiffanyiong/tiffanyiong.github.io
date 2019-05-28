@@ -1,0 +1,235 @@
+html {
+	overflow: hidden;
+}
+.wrapper {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	overflow-x: auto;
+}
+.wrapper.hide2 {
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+body {
+	overflow: hidden;
+}
+#menu-button.open #nav-button span:nth-child(1) {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: relative;
+	top: 2px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#menu-button.open #nav-button span:nth-child(2) {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	position: relative;
+	top: -2px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#menu-button.open #nav-button span:nth-child(3) {
+	display: none;
+}
+#ajax-content {
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.92);
+	position: fixed;
+	opacity: 0;
+	z-index: 9999;
+	filter: alpha(opacity=0);
+	overflow: hidden;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	/*z-index: 0;*/
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+	visibility: hidden;
+}
+#ajax-content.visible {
+	height: 100%;
+	z-index: 9999;
+	opacity: 1;
+	filter: alpha(opacity=1);
+	visibility: visible;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#ajax-content .ajax-sidebar {
+	width: 0;
+	background: #fff;
+	height: 100%;
+	float: right;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	z-index: 999;
+}
+#ajax-content.visible .ajax-sidebar {
+	float: right;
+	width: 380px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	-webkit-transition-delay: 0.3s; /* Safari */
+	transition-delay: 0.3s;
+}
+.ajax-sidebar #project-title {
+	padding: 55px;
+	width: 380px;
+	height: 100%;
+}
+#ajax-content .ajax-slider {
+	opacity: 0;
+	float: left;
+	width: auto;
+	height: 100%;
+}
+#ajax-content.visible .ajax-slider {
+	width: auto;
+	float: left;
+	height: 100%;
+	opacity: 1;
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	transition: all 0.6s ease-in-out;
+	-webkit-transition-delay: 0.4s; /* Safari */
+	transition-delay: 0.4s;
+}
+#ajax-content.visible .ajax-slider figure.images {
+	max-height: 100vh;
+	text-align: center;
+}
+#ajax-content.visible .ajax-slider figure.images img {
+	display: inline-block;
+	width: auto;
+	max-height: 90vh;
+	padding: 0 5%;
+}
+.ajax-close {
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+	position: absolute;
+	top: 28px;
+	right: 28px; /*background: #888;*/
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	z-index: 999999;
+	background: url(../images/icons/bg-close@2x.png) center no-repeat #fff;
+	background-size: 36px 36px;
+	opacity: 0
+}
+.ajax-close.test {
+	opacity: 1
+}
+.ajax-prev {
+	background: url(../images/icons/bg-prev@2x.png) center no-repeat #fff;
+	background-size: 48px 48px;
+	display: block;
+	position: absolute;
+	width: 54px;
+	height: 74px;
+	top: 50%;
+	margin-top: -34px;
+	left: 25px;
+}
+.ajax-next {
+	background: url(../images/icons/bg-next@2x.png) center no-repeat #fff;
+	background-size: 48px 48px;
+	display: block;
+	position: absolute;
+	width: 54px;
+	height: 74px;
+	top: 50%;
+	margin-top: -34px;
+	right: 25px;
+}
+#project-slider {
+	position: relative;
+}
+.ajax-more {
+	display: none;
+}
+
+@media only screen and (max-width : 768px) {
+.ajax-more {
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	background: #fff;
+	text-align: center;
+	padding-top: 15px;
+	cursor: pointer;
+	z-index: 99999;
+}
+#ajax-content.visible .ajax-sidebar {
+	position: absolute;
+	width: 0;
+	right: 0;
+}
+#ajax-content.visible .ajax-sidebar.collapsed {
+	width: 100%;
+}
+#ajax-content.visible .ajax-slider {
+	width: 100%;
+	-webkit-transition: all 0s ease-in-out;
+	-moz-transition: all 0.0s ease-in-out;
+	-o-transition: all 0.0s ease-in-out;
+	transition: all 0.0s ease-in-out;
+}
+.ajax-sidebar #project-title {
+	padding: 40px;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 300px;
+	text-align: center;
+}
+.bottom {
+	position: relative;
+	padding-top: 20px;
+	bottom: auto
+}
+#project-title h3 {
+	font-size: 24px;
+	line-height: 1.25;
+	letter-spacing: -0.5px;
+}
+.ajax-more {
+	font-size: 12px;
+}
+.ajax-prev, .ajax-next {
+	display: none !important;
+}
+#project-title .child {
+	vertical-align: top;
+}
+}
