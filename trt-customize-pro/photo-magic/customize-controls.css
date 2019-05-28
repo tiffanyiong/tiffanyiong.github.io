@@ -1,0 +1,44 @@
+#customize-controls .control-section-photo-magic .accordion-section-title:hover,
+#customize-controls .control-section-photo-magic .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.rtl .control-section-photo-magic .accordion-section-title .cusbtn {
+  margin-left:  0;
+  margin-right: 8px;
+}
+
+.accordion-section-title .cusbtn{
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 8px;
+}
+
+a.button.cusbtn,
+a.button.cusbtn:visited {
+  background-color: #FF4500;
+  border-color: #FF6600;
+  color: #fff;
+  box-shadow: none;
+  line-height: 0;
+  font-size: 13px;
+	font-weight: 400;
+  padding: 15px 20px;
+  vertical-align: middle;
+  display: block;
+  text-align: center;
+  clear: both;
+  margin-bottom: 7px;
+  border-radius: 3px;
+  outline: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+a.button.cusbtn:hover{
+  background-color: #247b24;
+  color: #fff;
+}

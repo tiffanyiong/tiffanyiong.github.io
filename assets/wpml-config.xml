@@ -1,0 +1,21 @@
+<wpml-config>
+  <admin-texts>
+    <key name="sauron_options">
+      <key name="seo_home_titletext" />
+      <key name="seo_home_descriptiontext" />
+      <key name="seo_home_keywordstext" />
+      <key name="logo_text" />
+      <key name="footer_text" />
+      <key name="blog_posts_title" />
+      <key name="blog_posts_description" />
+      <key name="gallery_posts_title" />
+      <key name="gallery_posts_description" />
+      <key name="review_posts_title" />
+      <key name="review_posts_description" />
+      <key name="follow_title" />
+      <key name="follow_description" />
+      <key name="contact_us_description" />
+      <key name="slider_wd_id" />
+    </key>
+  </admin-texts>
+</wpml-config>

@@ -1,0 +1,69 @@
+=== Sauron ===
+Theme URI: https://web-dorado.com/wordpress-themes/sauron.html
+Author: web-dorado.com
+Author URI: https://web-dorado.com/
+
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+
+== Attributions ==
+All images used in Sauron theme are GPL Compatible, including demo images, and images in screenshots.
+Some of them are taken from free public domain image source http://pixabay.com/ and is Licensed under CC0 licenses.
+
+Images in the screenshot:
+https://pixabay.com/en/work-working-group-groupware-hands-791218/
+https://pixabay.com/en/city-street-urban-traffic-busy-1150026/
+https://pixabay.com/en/bible-study-coffee-cup-religion-896220/
+https://pixabay.com/en/hand-man-watch-glasses-work-1076597/
+https://pixabay.com/en/man-reading-touchscreen-blog-791049/
+https://pixabay.com/en/city-urban-landscape-skyscrapers-1209017/
+
+newsletter_bg - https://pixabay.com/en/hourglass-time-hours-sand-clock-620397/
+
+All the other images are created by web-dorado and are licensed under CC0 license.
+
+Sauron WordPress Theme bundles the following third-party resources:
+
+Font Open Sans
+Copyright 2010-2011, Google Corporation
+License: Apache License Version 2.0
+
+Font Awesome by Dave Gandy
+License: http://fortawesome.github.io/Font-Awesome/license/
+
+jQuery-animateNumber
+Copyright (c) 2013 Alexandr Borisov
+License: MIT
+https://github.com/aishek/jquery-animateNumber
+
+jQuery.fullscreen library
+Copyright (c) 2013 Vladimir Zhuravlev
+License: MIT
+https://github.com/private-face/jquery.fullscreen
+
+malihu custom scrollbar plugin
+Copyright (c) 2015 Manos Malihutsakis
+License: MIT
+https://github.com/malihu/malihu-custom-scrollbar-plugin
+
+Lava Lamp
+Copyright (c) 2014 Richard Hung
+License: CC BY-NC 3.0
+http://lavalamp.magicmediamuse.com/
+
+== Spider_Random_Post.php License & Copyright ==
+Plugin URI: https://web-dorado.com/products/spider-random-post.html
+Author: https://web-dorado.com/
+Author License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+
