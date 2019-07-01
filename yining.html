@@ -36,8 +36,14 @@
     <!-- start main nav -->
     <nav id="main-nav">
       <ul class="option-set clearfix" data-option-key="filter">
-        <li> <a href="index.html">Portraits</a></li>
-        <li> <a href="blog.html">Blog</a> </li>
+        <li> <a href="#" class="sub-nav-toggle active">Portraits</a>
+          <ul id="options" class="sub-nav">
+            <li> <a href="#" class="control" data-filter="all">All <span>(3)</span></a></li>
+            <li> <a href="#" class="control" data-filter=".a2019">2019</a></li>
+            <li> <a href="#" class="control" data-filter=".a2018">2018 </a></li>
+          </ul>
+        </li>
+
 
       </ul>
     </nav>
