@@ -708,6 +708,20 @@ header {
 	height: 400px;
 }
 .background-image10 {
+	background: url(../images/test4.jpg) no-repeat center;
+	height: 100%;
+	display: block;
+	width: 100%;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.background-image11 {
 	background: url(../Jason1_15/3.jpg) no-repeat center;
 	height: 100%;
 	display: block;
