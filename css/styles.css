@@ -735,6 +735,20 @@ header {
 	-o-background-size: cover;
 	background-size: cover;
 }
+.background-image12 {
+	background: url(../images/3.jpg) no-repeat center;
+	height: 100%;
+	display: block;
+	width: 100%;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 .height-500 {
 	height: 500px;
 }
